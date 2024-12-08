@@ -1,6 +1,7 @@
 Attendence Management System 
 Using JAVA - GUI - CSV and TXT
 This project is for Educational Purposes only.
+Main class is written below. For Further Details, open Attendence.rar
 
 > Program:
 
