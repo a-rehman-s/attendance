@@ -2,23 +2,18 @@ Attendence Management System
 Using JAVA - GUI - CSV and TXT
 This project is for Educational Purposes only.
 
+> Program:
 
-
-
-package pkg;
-
-import javax.swing.*;
-import java.awt.*;
-
-@SuppressWarnings("serial")
-class Excel_handling extends ClassNotFoundException {
-	static class RoundedButton extends JButton {
+        package pkg;
+        import javax.swing.*;
+        import java.awt.*;
+        class Excel_handling extends ClassNotFoundException {
+	static class RoundedButton extends JButton {                                                
         public RoundedButton(String text) {
             super(text);
             setContentAreaFilled(false);
-        }
-
-        @Override
+        }        
+	
         protected void paintComponent(Graphics g) {
             Graphics2D g2 = (Graphics2D) g.create();
             g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
@@ -115,5 +110,4 @@ class Excel_handling extends ClassNotFoundException {
         });
 
         frame.setVisible(true);
-    }
-}
+    }}
