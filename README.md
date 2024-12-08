@@ -1,3 +1,10 @@
+Attendence Management System 
+Using JAVA - GUI - CSV and TXT
+This project is for Educational Purposes only.
+
+
+
+
 package pkg;
 
 import javax.swing.*;
